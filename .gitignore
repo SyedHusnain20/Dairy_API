@@ -1,0 +1,190 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# =========================
+# Virtual Environments
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+
+# =========================
+# IDE / Editors
+# =========================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+
+# =========================
+# Testing / Coverage
+# =========================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+
+# =========================
+# Type Checkers / Linters
+# =========================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+
+# =========================
+# OS Files
+# =========================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# =========================
+# Local Database Files
+# =========================
+
+*.sqlite
+*.sqlite3
+*.db
+
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.bak
+*.cache
+
+
+# =========================
+# Local / Generated Data
+# =========================
+
+data/
+datasets/
+uploads/
+outputs/
+temp/
+
+
+# =========================
+# Model / ML Artifacts
+# =========================
+
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.onnx
+
+# Hugging Face cache
+.cache/
+huggingface/
+transformers_cache/
+
+
+# =========================
+# Secrets / Credentials
+# =========================
+
+*.pem
+*.key
+credentials.json
+service-account.json
+
+
+# =========================
+# Generated Documentation
+# =========================
+
+site/
+docs/_build/
+
+
+# =========================
+# Project-specific
+# =========================
+
+# Add project-specific files/directories below
+# example:
+# uploads/
+# generated/
+# local_data/
